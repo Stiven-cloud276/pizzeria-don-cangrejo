@@ -18,7 +18,7 @@
       "Fecha y hora: " + encodeURIComponent(fecha);
 
     // Perú +51
-    var numero = "51" + "939477542";
+    var numero = "51" + "888 999 888";
     var url = "https://wa.me/" + numero + "?text=" + mensaje;
     // Nota: No se abre WhatsApp Web automáticamente para el usuario.
     // Si luego deseas abrirlo manualmente, descomenta la línea siguiente:
