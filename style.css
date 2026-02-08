@@ -130,7 +130,7 @@ img {
 .hero {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 80px 24px 60px;
+  padding: 66px 24px 60px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 48px;
@@ -198,7 +198,7 @@ img {
 .section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 70px 24px;
+  padding: 45px 24px;
 }
 
 .section-header {
@@ -531,4 +531,11 @@ img {
   .footer {
     flex-direction: column;
   }
+}
+
+#galeria.section {
+  padding-top: 48px;
+}
+#ubicacion.section {
+  padding-top: 50px; /* Aquí ajustas el espacio a tu gusto */
 }
